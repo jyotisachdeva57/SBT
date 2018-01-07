@@ -109,10 +109,10 @@ public class DBop {
                         break;
                 }
 
-                System.out.print("do you want to exit?(y/n)");
+                System.out.print("do you want to continue?(y/n)");
                 Scanner sc = new Scanner(System.in);
                 x = sc.next().charAt(0);
-            } while (x != 'y');
+            } while (x == 'y');
         }
     }
 }
